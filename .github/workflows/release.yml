@@ -10,7 +10,7 @@ jobs:
       contents: write
       issues: write
       pull-requests: write
-    runs-on: [standard, self-hosted, x64, ubuntu]
+    runs-on: ubuntu-latest
     name: "Bump version and create changelog with commitizen"
     steps:
       - name: Check out
